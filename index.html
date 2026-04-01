@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yan Keven</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- ICONES -->
+    <script
+      src="https://kit.fontawesome.com/fafde79878.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="menu.js" defer></script>
+  </head>
+
+  <body>
+    <header>
+      <div class="interface">
+        <div class="espaco">
+          <a href="https://www.linkedin.com" target="_blank">
+            <i class="fa-brands fa-linkedin-in"></i>
+          </a>
+        </div>
+
+        <div class="menu-desktop">
+          <ul>
+            <li><a href="#topo">Início</a></li>
+            <li><a href="#especialidades">Especialidades</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#projetos">Projetos</a></li>
+          </ul>
+        </div>
+
+        <div class="btn-contato">
+          <a href="#footer">
+            <button>Contato</button>
+          </a>
+        </div>
+
+        <div class="btn-abrir-menu" id="btn-menu">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+
+        <div class="menu-mobile" id="menu-mobile">
+          <div class="btn-fechar" id="btn-fechar">
+            <i class="fa-solid fa-xmark"></i>
+          </div>
+
+          <div>
+            <ul>
+              <li><a href="#topo">Início</a></li>
+              <li><a href="#especialidades">Especialidades</a></li>
+              <li><a href="#sobre">Sobre</a></li>
+              <li><a href="#projetos">Projetos</a></li>
+              <li><a href="#footer">Contato</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="overlay-menu" id="overlay-menu"></div>
+      </div>
+    </header>
+
+    <main>
+      <section class="topo-do-site" id="topo">
+        <div class="interface">
+          <div class="flex">
+            <div class="txt-topo-site">
+              <h1>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptates sit temporibus ipsa! Rerum ratione ullam at,
+                molestiae dolores accusantium dolorem dignissimos totam
+                voluptatem magni, dolor alias nobis eos. Quam, deleniti.
+              </p>
+              <div class="btn-contato">
+                <a href="#">
+                  <button>Entre em contato</button>
+                </a>
+              </div>
+            </div>
+
+            <div class="imagem-topo-site">
+              <img src="imagem.png" alt="Imagem de um homem" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="especialidades" id="especialidades">
+        <div class="interface">
+          <h2 class="titulo">Especialidades</h2>
+
+          <div class="flex">
+            <div class="especialidade-box">
+              <i class="fa-solid fa-code"></i>
+              <h3>Desenvolvimento Web</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptas, voluptate.
+              </p>
+            </div>
+
+            <div class="especialidade-box">
+              <i class="fa-solid fa-mobile-screen"></i>
+              <h3>Desenvolvimento Mobile</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptas, voluptate.
+              </p>
+            </div>
+
+            <div class="especialidade-box">
+              <i class="fa-solid fa-database"></i>
+              <h3>Banco de Dados</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptas, voluptate.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="sobre" id="sobre">
+        <div class="interface">
+          <div class="flex">
+            <div class="img-sobre">
+              <img src="imagem.png" alt="homem" />
+            </div>
+
+            <div class="txt-sobre">
+              <h2>MUITO PRAZER, <span>EU SOU O BATMAN</span></h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Est ex
+                a voluptatibus id non libero autem laboriosam obcaecati amet nam
+                officia dolorem, quas tenetur. Labore voluptas rerum deleniti
+                quam molestiae.
+              </p>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo
+                recusandae mollitia explicabo officiis minima nam. Beatae nobis
+                perspiciatis harum repellendus. Eveniet facere alias
+                necessitatibus veritatis numquam nulla, rem deserunt
+                dignissimos!
+              </p>
+              <div class="btn-social">
+                <a href="https://instagram.com"
+                  ><button><i class="fa-brands fa-instagram"></i></button
+                ></a>
+                <a href="https://youtube.com"
+                  ><button><i class="fa-brands fa-youtube"></i></button
+                ></a>
+                <a href="https://linkedin.com"
+                  ><button><i class="fa-brands fa-linkedin"></i></button
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="projetos" id="projetos">
+        <div class="interface">
+          <h2 class="titulo">MEUS <span>PROJETOS</span></h2>
+
+          <div class="flex">
+            <div class="img-port" style="background-image: url(imagem.png)">
+              <div class="overlay">Projeto 1</div>
+            </div>
+            <div class="img-port" style="background-image: url(imagem.png)">
+              <div class="overlay">Projeto 2</div>
+            </div>
+            <div class="img-port" style="background-image: url(imagem.png)">
+              <div class="overlay">Projeto 3</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="form">
+        <div class="interface">
+          <h2 class="titulo">FALA COMIGO</h2>
+
+          <form action="">
+            <input type="text" placeholder="Seu nome" required />
+            <input type="email" placeholder="Seu email" required />
+            <input type="tel" placeholder="Seu celular" />
+            <textarea placeholder="Sua mensagem" required></textarea>
+            <div class="btn-enviar"><input type="submit" value="ENVIAR" /></div>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer id="footer">
+      <div class="interface">
+        <div class="line-footer">
+          <div class="flex">
+            <div class="logo-footer">
+              <img src="imagem.png" alt="imagem" style="width: 100px" />
+            </div>
+
+            <div class="btn-social">
+              <a href="https://instagram.com"
+                ><button><i class="fa-brands fa-instagram"></i></button
+              ></a>
+              <a href="https://youtube.com"
+                ><button><i class="fa-brands fa-youtube"></i></button
+              ></a>
+              <a href="https://linkedin.com"
+                ><button><i class="fa-brands fa-linkedin"></i></button
+              ></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="line-footer borda">
+          <p>
+            <i class="fa-solid fa-inbox"></i
+            ><a href="mailto:yankeven0201@gmail.com">yankeven0201@gmail.com</a>
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
